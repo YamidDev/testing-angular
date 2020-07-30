@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1">@</span>
+    </div>
+    <input type="text" [(ngModel)]="test1" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    <label>{{test1}}</label>
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="text" [(ngModel)]="test2" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2">@example.com</span>
+    </div>
+    <label >{{test2}}</label>
+  </div>
+</div>
